@@ -66,7 +66,7 @@ navLinks.forEach((link) => {
 });
 
 const revealTargets = document.querySelectorAll(
-  ".signature-copy, .signature-nameplate, .signature-facts article, .focus-card, .experience-panel, .experience-points li, .impact-card, .stack-group, .education-card, .map-copy, .map-frame"
+  ".signature-copy, .signature-nameplate, .signature-facts article, .focus-card, .experience-panel, .experience-points li, .lab-copy, .lab-stage, .impact-card, .stack-group, .education-card, .map-copy, .map-frame"
 );
 
 if ("IntersectionObserver" in window) {
