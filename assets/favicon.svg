@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Vedant Verma">
+  <rect width="64" height="64" rx="14" fill="#07100f"/>
+  <path d="M16 17h7l9 24 9-24h7L35.6 47h-7.2L16 17Z" fill="#1f9f96"/>
+  <path d="M29 17h6l7 18 7-18h6L45 47h-6L29 17Z" fill="#d88932" opacity=".92"/>
+</svg>

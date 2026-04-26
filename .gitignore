@@ -1,0 +1,6 @@
+.DS_Store
+.Rhistory
+vedant-verma-portfolio.zip
+node_modules/
+dist/
+.env
