@@ -6,545 +6,552 @@
     <title>Vedant Verma | Software Engineer</title>
     <meta
       name="description"
-      content="Portfolio of Vedant Verma, a software engineer focused on backend systems, SaaS platforms, cloud infrastructure, and performance engineering."
+      content="Vedant Verma is a Dublin-based software engineer building distributed backend services, cloud data pipelines, and secure platforms with Java, Spring Boot, PySpark, and GCP."
     />
-    <meta name="theme-color" content="#07100f" />
+    <meta name="theme-color" content="#f6f3ee" />
     <meta property="og:title" content="Vedant Verma | Software Engineer" />
     <meta
       property="og:description"
-      content="Backend and platform engineer building reliable SaaS systems, event-driven services, cloud deployments, and high-performance distributed workloads."
+      content="Backend and cloud engineer: multi-tenant SaaS, GCP data pipelines, event-driven systems, and performance engineering."
     />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="assets/systems-hero.png" />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-    <link rel="preload" href="assets/systems-hero.png" as="image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    />
+    <script>
+      document.documentElement.classList.add("js");
+      try {
+        const saved = localStorage.getItem("theme");
+        if (saved) document.documentElement.dataset.theme = saved;
+      } catch (error) {}
+    </script>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <a class="skip-link" href="#main">Skip to content</a>
-    <div class="scroll-progress" aria-hidden="true"></div>
-    <div class="pointer-glow" aria-hidden="true"></div>
+    <svg class="sprite" aria-hidden="true">
+      <symbol id="i-work" viewBox="0 0 24 24"><path d="M9 6V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1h4a2 2 0 0 1 2 2v3H3V8a2 2 0 0 1 2-2h4Zm2 0h2V5h-2v1ZM3 13h7v1a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-1h7v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5Z" /></symbol>
+      <symbol id="i-edu" viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3Zm-6.5 9.3v3.2L12 19l6.5-3.5v-3.2L12 15.8l-6.5-3.5Z" /></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z" /></symbol>
+      <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.58c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.68H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.33 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12Zm1.78 13.02H3.55V9h3.56v11.45Z" /></symbol>
+      <symbol id="i-github" viewBox="0 0 24 24"><path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.56.1.76-.24.76-.54v-2.07c-3.12.68-3.78-1.32-3.78-1.32-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.68.08-.68 1.13.08 1.73 1.16 1.73 1.16 1 .1.7 2.64 3.95 1.88.1-.73.39-1.23.71-1.52-2.49-.28-5.1-1.24-5.1-5.54 0-1.22.44-2.22 1.16-3-.12-.28-.5-1.42.11-2.96 0 0 .95-.3 3.1 1.15a10.7 10.7 0 0 1 5.65 0c2.16-1.46 3.1-1.15 3.1-1.15.62 1.54.24 2.68.12 2.96.72.78 1.15 1.78 1.15 3 0 4.31-2.62 5.25-5.12 5.53.4.35.76 1.03.76 2.08v3.13c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z" /></symbol>
+      <symbol id="i-sun" viewBox="0 0 24 24"><path d="M12 17a5 5 0 1 1 0-10 5 5 0 0 1 0 10Zm0-15 1 3h-2l1-3Zm0 20-1-3h2l-1 3ZM2 12l3-1v2l-3-1Zm20 0-3 1v-2l3 1ZM4.9 4.9l2.8 1.4-1.4 1.4-1.4-2.8Zm14.2 14.2-2.8-1.4 1.4-1.4 1.4 2.8ZM4.9 19.1l1.4-2.8 1.4 1.4-2.8 1.4ZM19.1 4.9l-1.4 2.8-1.4-1.4 2.8-1.4Z" /></symbol>
+      <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20.5 14.6A8.5 8.5 0 0 1 9.4 3.5a8.5 8.5 0 1 0 11.1 11.1Z" /></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M13.2 5.3 20 12l-6.8 6.7-1.4-1.4 4.3-4.3H4v-2h12.1l-4.3-4.3 1.4-1.4Z" /></symbol>
+      <symbol id="i-download" viewBox="0 0 24 24"><path d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3ZM4 19h16v2H4v-2Z" /></symbol>
+      <symbol id="i-copy" viewBox="0 0 24 24"><path d="M8 3h11a2 2 0 0 1 2 2v11h-2V5H8V3Zm-3 4h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2Z" /></symbol>
+    </svg>
 
-    <header class="site-header" aria-label="Primary navigation">
-      <a class="brand" href="#top" aria-label="Vedant Verma home">
-        <span class="brand-mark" aria-hidden="true">VV</span>
-        <span>Vedant Verma</span>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="progress" aria-hidden="true"></div>
+
+    <header class="nav" aria-label="Primary">
+      <a class="nav-brand" href="#top" aria-label="Vedant Verma, back to top">
+        <span class="monogram">VV</span>
       </a>
-      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
-        <span></span>
-        <span></span>
-      </button>
-      <nav class="nav-links">
-        <a href="#story">Profile</a>
-        <a href="#work">Experience</a>
-        <a href="#lab">Lab</a>
-        <a href="#impact">Results</a>
-        <a href="#education">Education</a>
-        <a href="#stack">Skills</a>
+      <nav class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#journey">Journey</a>
+        <a href="#highlights">Highlights</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
+        <a class="nav-freelance" href="freelance.html">Freelance <svg><use href="#i-arrow" /></svg></a>
       </nav>
+      <div class="nav-tools">
+        <button class="icon-btn theme-toggle" type="button" aria-label="Toggle dark mode">
+          <svg class="icon-sun"><use href="#i-sun" /></svg>
+          <svg class="icon-moon"><use href="#i-moon" /></svg>
+        </button>
+        <button class="icon-btn menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span>
+        </button>
+      </div>
     </header>
 
     <main id="main">
-      <section class="hero" id="top" aria-label="Introduction">
-        <img class="hero-image" src="assets/systems-hero.png" alt="" />
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-          <p class="eyebrow">Software Engineer &middot; Dublin, Ireland</p>
-          <h1>
-            <span class="hero-name">Vedant Verma</span>
-            <span>Backend systems with product-level polish.</span>
-          </h1>
-          <p class="hero-copy">
-            I design distributed services, performance-critical pipelines, and deployment-ready
-            platform workflows across Java, Spring Boot, PostgreSQL, Docker, AWS, GCP, and CI/CD.
-          </p>
-          <div class="hero-chip-row" aria-label="Engineering strengths">
-            <span>Multi-tenant SaaS</span>
-            <span>Event-driven systems</span>
-            <span>Cloud releases</span>
-            <span>Performance profiling</span>
-          </div>
-          <div class="hero-actions" aria-label="Primary actions">
-            <a class="button button-primary" href="#work">
-              View Experience
-            </a>
-            <a class="button button-secondary" href="assets/vedant-verma-software-engineer-cv.pdf" download>
-              Download CV
-            </a>
-            <a class="button button-ghost" href="mailto:vedantvermaimpmail@gmail.com">
-              Contact Me
-            </a>
-          </div>
-          <div class="hero-socials" aria-label="Social links">
-            <a class="icon-link" href="https://www.linkedin.com/in/vedant-verma-4b9367188/" target="_blank" rel="noreferrer" aria-label="Open Vedant Verma on LinkedIn">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M20.45 20.45h-3.56v-5.58c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.68H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.33 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12Zm1.78 13.02H3.55V9h3.56v11.45Z" />
-              </svg>
-            </a>
-            <a class="icon-link" href="https://github.com/vedantverma" target="_blank" rel="noreferrer" aria-label="Open Vedant Verma on GitHub">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.56.1.76-.24.76-.54v-2.07c-3.12.68-3.78-1.32-3.78-1.32-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.68.08-.68 1.13.08 1.73 1.16 1.73 1.16 1 .1.7 2.64 3.95 1.88.1-.73.39-1.23.71-1.52-2.49-.28-5.1-1.24-5.1-5.54 0-1.22.44-2.22 1.16-3-.12-.28-.5-1.42.11-2.96 0 0 .95-.3 3.1 1.15a10.7 10.7 0 0 1 5.65 0c2.16-1.46 3.1-1.15 3.1-1.15.62 1.54.24 2.68.12 2.96.72.78 1.15 1.78 1.15 3 0 4.31-2.62 5.25-5.12 5.53.4.35.76 1.03.76 2.08v3.13c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z" />
-              </svg>
-            </a>
-          </div>
-        </div>
-        <div class="hero-scroll-cue" aria-hidden="true">
-          <span></span>
-          Scroll
-        </div>
-        <dl class="hero-metrics" aria-label="Career highlights">
-          <div>
-            <dt>3+ yrs</dt>
-            <dd>Backend engineering</dd>
-          </div>
-          <div>
-            <dt>300%</dt>
-            <dd>Performance gain</dd>
-          </div>
-          <div>
-            <dt>3x</dt>
-            <dd>Star of the Quarter</dd>
-          </div>
-          <div>
-            <dt>SaaS</dt>
-            <dd>Release ownership</dd>
-          </div>
-        </dl>
-      </section>
+      <!-- ============ HERO ============ -->
+      <section class="hero" id="top">
+        <div class="hero-blob hero-blob-a" aria-hidden="true"></div>
+        <div class="hero-blob hero-blob-b" aria-hidden="true"></div>
 
-      <section class="route-strip" aria-label="Portfolio highlights">
-        <a href="#work">
-          <strong>Experience</strong>
-          <span>ClearTrail, Hinduja Tech, production systems</span>
-        </a>
-        <a href="#impact">
-          <strong>Results</strong>
-          <span>300% performance, billing pipelines, cloud releases</span>
-        </a>
-        <a href="#lab">
-          <strong>Developer lab</strong>
-          <span>Code, tests, deploys, and playful system motion</span>
-        </a>
-        <a href="#contact">
-          <strong>Contact</strong>
-          <span>Email, LinkedIn, downloadable resumes</span>
-        </a>
-      </section>
-
-      <section class="signature-section" id="story" aria-labelledby="signature-title">
-        <div class="signature-inner">
-          <div class="signature-copy">
-            <p class="eyebrow">Profile</p>
-            <h2 id="signature-title">A software engineer who treats reliability as part of the user experience.</h2>
-            <p>
-              My work sits at the point where architecture diagrams meet real production pressure:
-              tenant isolation, billing events, deployment windows, observability, profiling, and
-              the careful decisions that keep distributed systems calm.
+        <div class="wrap hero-grid">
+          <div class="hero-main">
+            <p class="status-pill"><span class="dot" aria-hidden="true"></span>Open to software engineering roles &amp; freelance work</p>
+            <h1 class="hero-title">
+              <span class="hero-hi">Hi, I'm</span>
+              Vedant Verma
+            </h1>
+            <p class="hero-sub">
+              Software engineer building
+              <span class="rotator" aria-live="polite"><span class="rotator-word">distributed backends</span></span>
             </p>
+            <p class="hero-lede">
+              3+ years shipping Java and Spring Boot services in production, from multi-tenant SaaS and
+              Stripe billing pipelines to a GCP data migration for a UK bank. Now in Dublin with an MSc
+              from University College Dublin.
+            </p>
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#journey">See my journey <svg><use href="#i-arrow" /></svg></a>
+              <a class="btn btn-ghost" href="assets/vedant-verma-resume.pdf" download="Vedant-Verma-Resume.pdf"><svg><use href="#i-download" /></svg> Download Resume</a>
+              <a class="btn btn-link" href="freelance.html">Hire me freelance</a>
+            </div>
           </div>
-          <div class="signature-nameplate" aria-label="Vedant Verma">
-            <span>Vedant</span>
-            <span>Verma</span>
-          </div>
-          <div class="signature-facts" aria-label="Quick profile">
-            <article>
-              <strong>Current base</strong>
-              <span>Dublin, Ireland</span>
-            </article>
-            <article>
-              <strong>Core lane</strong>
-              <span>Backend, platform, cloud</span>
-            </article>
-            <article>
-              <strong>Best at</strong>
-              <span>Making complex systems operable</span>
-            </article>
-          </div>
-        </div>
-      </section>
 
-      <section class="section focus-section" aria-labelledby="focus-title">
-        <div class="section-heading">
-          <p class="eyebrow">Engineering Focus</p>
-          <h2 id="focus-title">Systems that stay fast, observable, and dependable.</h2>
-        </div>
-        <div class="focus-grid">
-          <article class="focus-card">
-            <span class="card-index">01</span>
-            <h3>Multi-tenant SaaS architecture</h3>
-            <p>
-              Designed backend services with tenant isolation, stateless REST APIs, extensible
-              components, and clean service boundaries for scalable SaaS deployments.
-            </p>
-          </article>
-          <article class="focus-card">
-            <span class="card-index">02</span>
-            <h3>Event-driven cloud workflows</h3>
-            <p>
-              Built asynchronous pipelines with AWS SNS, S3 triggers, Dockerized services, and
-              YAML-driven deployment flows that reduce manual release effort.
-            </p>
-          </article>
-          <article class="focus-card">
-            <span class="card-index">03</span>
-            <h3>Performance and reliability</h3>
-            <p>
-              Profiled distributed workloads with JProfiler, removed memory bottlenecks, resolved
-              concurrency issues, and improved execution performance by over 300%.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section work-section" id="work" aria-labelledby="work-title">
-        <div class="section-heading">
-          <p class="eyebrow">Experience</p>
-          <h2 id="work-title">Work experience shaped by real production pressure.</h2>
-        </div>
-        <div class="experience-showcase" aria-label="Professional experience">
-          <article class="experience-panel experience-panel-dark">
-            <div class="experience-sticky">
-              <p class="role">Software Engineer</p>
-              <h3>ClearTrail Technologies Pvt. Ltd.</h3>
-              <div class="experience-meta">
-                <span>Jul 2021 - Aug 2024</span>
-                <span>Indore, India</span>
-              </div>
-              <div class="experience-signal">
-                <strong>300%</strong>
-                <span>execution performance improvement through profiling and pipeline tuning</span>
+          <aside class="id-card" aria-label="At a glance">
+            <div class="id-card-head">
+              <span class="monogram monogram-lg">VV</span>
+              <div>
+                <strong>Vedant Verma</strong>
+                <span>Software Engineer</span>
               </div>
             </div>
-            <ul class="experience-points">
-              <li>
-                <strong>Architecture</strong>
-                <span>Designed and implemented multi-tenant microservices using Java, Spring Boot, and PostgreSQL for scalable SaaS deployments and stronger tenant isolation.</span>
-              </li>
-              <li>
-                <strong>APIs</strong>
-                <span>Developed stateless REST APIs connecting ETL and analytics services across distributed systems.</span>
-              </li>
-              <li>
-                <strong>Billing</strong>
-                <span>Implemented usage-based metering pipelines integrated with Stripe for automated billing, invoicing, and financial auditing.</span>
-              </li>
-              <li>
-                <strong>Events</strong>
-                <span>Designed event-driven workflows with AWS SNS and S3 triggers to orchestrate asynchronous microservice communication.</span>
-              </li>
-              <li>
-                <strong>Performance</strong>
-                <span>Used JProfiler to identify memory bottlenecks, inefficient processing stages, concurrency issues, and thread contention in clustered workloads.</span>
-              </li>
-              <li>
-                <strong>Ownership</strong>
-                <span>Owned scheduler, notification, product logging, and data summarisation services during production incidents and release windows.</span>
-              </li>
-              <li>
-                <strong>Release</strong>
-                <span>Coordinated bi-weekly SaaS releases across engineering teams with planning, estimates, CI/CD workflows, and stability checks.</span>
-              </li>
-              <li>
-                <strong>Mentorship</strong>
-                <span>Mentored incoming developers and supported cross-team knowledge sharing on backend architecture and system design.</span>
-              </li>
+            <dl class="id-card-rows">
+              <div>
+                <dt>Now</dt>
+                <dd>Customer Support Engineer <em>@ Teleperformance</em></dd>
+              </div>
+              <div>
+                <dt>Before</dt>
+                <dd>GCP Architect <em>@ Wipro</em></dd>
+              </div>
+              <div>
+                <dt>Studied</dt>
+                <dd>MSc Information Systems <em>@ UCD</em></dd>
+              </div>
+              <div>
+                <dt>Local time</dt>
+                <dd><span class="clock" data-tz="Europe/Dublin">--:--</span> <em>Dublin, IE</em></dd>
+              </div>
+            </dl>
+            <div class="id-card-links">
+              <a class="icon-btn" href="https://www.linkedin.com/in/vedant-verma-4b9367188/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><svg><use href="#i-linkedin" /></svg></a>
+              <a class="icon-btn" href="https://github.com/vedantverma" target="_blank" rel="noreferrer" aria-label="GitHub"><svg><use href="#i-github" /></svg></a>
+              <a class="id-card-mail" href="mailto:vedantvermaimpmail@gmail.com">vedantvermaimpmail@gmail.com</a>
+            </div>
+          </aside>
+        </div>
+
+        <div class="marquee" aria-label="Technologies I work with">
+          <div class="marquee-track">
+            <span>Java</span><span>Spring Boot</span><span>PostgreSQL</span><span>PySpark</span><span>Apache Airflow</span><span>GCP</span><span>AWS</span><span>Docker</span><span>Kubernetes</span><span>Kafka</span><span>Stripe</span><span>Python</span><span>CI/CD</span><span>Microservices</span>
+            <span aria-hidden="true">Java</span><span aria-hidden="true">Spring Boot</span><span aria-hidden="true">PostgreSQL</span><span aria-hidden="true">PySpark</span><span aria-hidden="true">Apache Airflow</span><span aria-hidden="true">GCP</span><span aria-hidden="true">AWS</span><span aria-hidden="true">Docker</span><span aria-hidden="true">Kubernetes</span><span aria-hidden="true">Kafka</span><span aria-hidden="true">Stripe</span><span aria-hidden="true">Python</span><span aria-hidden="true">CI/CD</span><span aria-hidden="true">Microservices</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ ABOUT ============ -->
+      <section class="section" id="about">
+        <div class="wrap about-grid">
+          <div class="section-head">
+            <p class="kicker">01 &middot; About</p>
+            <h2>I make complex systems <span class="accent-text">calm</span>, fast, and safe to run.</h2>
+          </div>
+          <div class="about-body">
+            <p>
+              My work sits where architecture diagrams meet production pressure: tenant isolation,
+              billing events, release windows, profiling, and the careful decisions that keep
+              distributed systems dependable.
+            </p>
+            <p>
+              Most recently I led the cloud architecture for a DataStage-to-GCP migration at Wipro, and
+              I now protect user accounts from fraud at Teleperformance. That work gives me a
+              security-first view of the products I build.
+            </p>
+            <ul class="about-facts">
+              <li><strong>3+</strong><span>years in production backend engineering</span></li>
+              <li><strong>4</strong><span>companies across India and Ireland</span></li>
+              <li><strong>2</strong><span>degrees in IT and Information Systems</span></li>
             </ul>
-          </article>
+          </div>
+        </div>
+      </section>
 
-          <article class="experience-panel">
-            <div class="experience-sticky">
-              <p class="role">Data Science Intern</p>
-              <h3>Hinduja Tech Ltd.</h3>
-              <div class="experience-meta">
-                <span>Jan 2020 - Jun 2020</span>
-                <span>Pune, India</span>
+      <!-- ============ JOURNEY / TIMELINE ============ -->
+      <section class="section section-tint" id="journey">
+        <div class="wrap">
+          <div class="section-head section-head-row">
+            <div>
+              <p class="kicker">02 &middot; Journey</p>
+              <h2>Work &amp; education, one timeline.</h2>
+            </div>
+            <div class="tl-controls">
+              <div class="segmented" role="group" aria-label="Filter timeline">
+                <button type="button" class="is-active" data-filter="all" aria-pressed="true">All</button>
+                <button type="button" data-filter="work" aria-pressed="false"><svg><use href="#i-work" /></svg> Work</button>
+                <button type="button" data-filter="education" aria-pressed="false"><svg><use href="#i-edu" /></svg> Education</button>
               </div>
-              <div class="experience-signal">
-                <strong>NLP</strong>
-                <span>automotive research workflows using Python, scraping, and sentiment analysis</span>
+              <button type="button" class="btn btn-small btn-ghost tl-expand" aria-pressed="false">Expand all</button>
+            </div>
+          </div>
+
+          <ol class="tl">
+            <li class="tl-spine" aria-hidden="true"><span class="tl-spine-fill"></span></li>
+
+            <li class="tl-item is-current" data-type="work" data-side="left">
+              <div class="tl-when">
+                <span class="tl-year">2026</span>
+                <span>Jul 2026 &ndash; Present</span>
               </div>
-            </div>
-            <ul class="experience-points">
-              <li>
-                <strong>Analysis</strong>
-                <span>Analysed automotive datasets using Pandas, NumPy, and Seaborn to derive actionable insights.</span>
-              </li>
-              <li>
-                <strong>NLP</strong>
-                <span>Applied sentiment analysis techniques to scraped web content and social media data.</span>
-              </li>
-              <li>
-                <strong>Automation</strong>
-                <span>Developed Python scripts for large-scale web scraping and text mining in automotive research.</span>
-              </li>
-            </ul>
-          </article>
+              <div class="tl-node"><svg><use href="#i-work" /></svg></div>
+              <article class="tl-card">
+                <div class="tl-card-top">
+                  <span class="badge badge-work">Work</span>
+                  <span class="badge badge-live">Current</span>
+                  <span class="tl-date-inline">Jul 2026 &ndash; Present</span>
+                </div>
+                <h3>Customer Support Engineer</h3>
+                <p class="tl-org">Teleperformance <span>&middot; Dublin, Ireland</span></p>
+                <p class="tl-summary">
+                  Protecting users of a leading social media platform: investigating suspicious
+                  activity, detecting fraud, and handling high-stakes account recovery.
+                </p>
+                <details class="tl-more">
+                  <summary>Key contributions</summary>
+                  <ul>
+                    <li>Investigate suspicious account activity and detect fraud, acting quickly to protect users and keep accounts secure.</li>
+                    <li>Handle sensitive, high-stakes account-recovery cases, making sound judgment calls under pressure and following security and compliance procedures.</li>
+                    <li>Guide users through securing and regaining access to their accounts, delivering a careful, high-quality experience in an SLA-driven environment.</li>
+                  </ul>
+                </details>
+                <ul class="tags">
+                  <li>Fraud detection</li><li>Account security</li><li>Compliance</li><li>SLA-driven</li>
+                </ul>
+              </article>
+            </li>
+
+            <li class="tl-item" data-type="work" data-side="right">
+              <div class="tl-when">
+                <span class="tl-year">2026</span>
+                <span>May &ndash; Jun 2026 &middot; 2 mos</span>
+              </div>
+              <div class="tl-node"><svg><use href="#i-work" /></svg></div>
+              <article class="tl-card">
+                <div class="tl-card-top">
+                  <span class="badge badge-work">Work</span>
+                  <span class="badge">Contract</span>
+                  <span class="tl-date-inline">May &ndash; Jun 2026</span>
+                </div>
+                <h3>GCP Architect</h3>
+                <p class="tl-org">Wipro <span>&middot; Remote</span></p>
+                <p class="tl-summary">
+                  Led cloud architecture and DevOps for a leading UK bank's proof of concept,
+                  migrating data pipelines from IBM DataStage to Google Cloud.
+                </p>
+                <div class="flow" aria-label="Pipeline: DataStage to PySpark to Airflow to CI/CD to GCP to curated data">
+                  <span>DataStage</span><span>PySpark</span><span>Airflow</span><span>CI/CD</span><span>GCP</span><span>Curated data</span>
+                </div>
+                <details class="tl-more">
+                  <summary>Key contributions</summary>
+                  <ul>
+                    <li>Led the cloud architecture and DevOps for a proof-of-concept engagement with a leading UK banking and financial institution, migrating data pipelines from IBM DataStage to GCP.</li>
+                    <li>Built the pipeline with PySpark for distributed data processing and Apache Airflow for orchestration, with automated CI/CD submitting jobs to GCP clusters that turned raw financial data into curated data assets.</li>
+                    <li>Led a team of 3 engineers on GCP data-engineering practices, managing cluster provisioning and compute for scalable, repeatable job execution.</li>
+                  </ul>
+                </details>
+                <ul class="tags">
+                  <li>GCP</li><li>PySpark</li><li>Apache Airflow</li><li>CI/CD</li><li>Team lead</li>
+                </ul>
+              </article>
+            </li>
+
+            <li class="tl-item tl-milestone" data-type="milestone" data-side="left">
+              <div class="tl-node"><svg><use href="#i-pin" /></svg></div>
+              <p class="tl-milestone-text"><strong>2024</strong> Moved from India to Dublin, Ireland</p>
+            </li>
+
+            <li class="tl-item" data-type="education" data-side="left">
+              <div class="tl-when">
+                <span class="tl-year">2024</span>
+                <span>Sep 2024 &ndash; Aug 2025</span>
+              </div>
+              <div class="tl-node"><svg><use href="#i-edu" /></svg></div>
+              <article class="tl-card">
+                <div class="tl-card-top">
+                  <span class="badge badge-edu">Education</span>
+                  <span class="tl-date-inline">Sep 2024 &ndash; Aug 2025</span>
+                </div>
+                <h3>M.Sc. Information Systems</h3>
+                <p class="tl-org">University College Dublin <span>&middot; Dublin, Ireland</span></p>
+                <p class="tl-summary">
+                  Graduated with Second Class Honours, Grade 1. Focused on machine learning, NLP, and
+                  data-driven systems across coursework, thesis, and projects.
+                </p>
+                <div class="score"><strong>3.63</strong><span>/ 4.20 GPA</span></div>
+                <details class="tl-more">
+                  <summary>Highlights</summary>
+                  <ul>
+                    <li>Model training and evaluation on real-world datasets in Python through coursework, thesis, and personal projects.</li>
+                    <li>Hands-on work with LLM APIs and AI-assisted development tooling.</li>
+                  </ul>
+                </details>
+                <ul class="tags">
+                  <li>Machine learning</li><li>NLP</li><li>Python</li><li>Information systems</li>
+                </ul>
+              </article>
+            </li>
+
+            <li class="tl-item" data-type="work" data-side="right">
+              <div class="tl-when">
+                <span class="tl-year">2021</span>
+                <span>Jul 2021 &ndash; Aug 2024 &middot; 3 yrs 2 mos</span>
+              </div>
+              <div class="tl-node"><svg><use href="#i-work" /></svg></div>
+              <article class="tl-card">
+                <div class="tl-card-top">
+                  <span class="badge badge-work">Work</span>
+                  <span class="tl-date-inline">Jul 2021 &ndash; Aug 2024</span>
+                </div>
+                <h3>Software Engineer</h3>
+                <p class="tl-org">ClearTrail Technologies <span>&middot; Indore, India</span></p>
+                <p class="tl-summary">
+                  Built and owned multi-tenant SaaS microservices in Java, Spring Boot, and PostgreSQL,
+                  and improved distributed execution performance by over 300%.
+                </p>
+                <div class="awards">
+                  <span>&#9733; Star of the Quarter &times;3</span>
+                  <span>&#9733; Star of the Month (multiple)</span>
+                </div>
+                <details class="tl-more">
+                  <summary>Key contributions</summary>
+                  <ul>
+                    <li>Designed and implemented a multi-tenant microservices architecture using Java, Spring Boot, and PostgreSQL, enabling scalable SaaS deployments with strong tenant isolation.</li>
+                    <li>Developed stateless REST APIs and modular backend components for communication between ETL and analytics services.</li>
+                    <li>Implemented usage-based metering pipelines integrated with Stripe for automated billing, invoicing, and financial auditing.</li>
+                    <li>Designed event-driven workflows using AWS SNS and S3 triggers to orchestrate asynchronous microservice communication.</li>
+                    <li>Improved distributed-system execution performance by over 300% using JProfiler, resolving concurrency issues, memory leaks, and thread contention.</li>
+                    <li>Owned critical services (Scheduler, Notification, Product Logging, Data Summarisation) through monitoring, log analysis, and incident resolution.</li>
+                    <li>Coordinated bi-weekly SaaS releases across teams and built a schema-flexible dataset reuse architecture that reduced duplication.</li>
+                    <li>Worked in Agile teams (Jira, GitLab, CI/CD), wrote unit and integration tests, and mentored incoming developers.</li>
+                  </ul>
+                </details>
+                <ul class="tags">
+                  <li>Java</li><li>Spring Boot</li><li>PostgreSQL</li><li>AWS SNS/S3</li><li>Stripe</li><li>JProfiler</li>
+                </ul>
+              </article>
+            </li>
+
+            <li class="tl-item" data-type="work" data-side="left">
+              <div class="tl-when">
+                <span class="tl-year">2020</span>
+                <span>Jan &ndash; Jun 2020 &middot; 6 mos</span>
+              </div>
+              <div class="tl-node"><svg><use href="#i-work" /></svg></div>
+              <article class="tl-card">
+                <div class="tl-card-top">
+                  <span class="badge badge-work">Work</span>
+                  <span class="badge">Internship</span>
+                  <span class="tl-date-inline">Jan &ndash; Jun 2020</span>
+                </div>
+                <h3>Software Engineering Intern</h3>
+                <p class="tl-org">Hinduja Tech <span>&middot; Pune, India</span></p>
+                <p class="tl-summary">
+                  Analysed automotive datasets and applied NLP sentiment analysis to scraped web and
+                  social-media content.
+                </p>
+                <details class="tl-more">
+                  <summary>Key contributions</summary>
+                  <ul>
+                    <li>Analysed automotive datasets using Pandas, NumPy, and Seaborn to derive insights.</li>
+                    <li>Applied NLP for sentiment analysis on scraped web and social-media content.</li>
+                    <li>Built Python web-scraping and text-mining scripts for automotive research.</li>
+                  </ul>
+                </details>
+                <ul class="tags">
+                  <li>Python</li><li>Pandas</li><li>NLP</li><li>Web scraping</li>
+                </ul>
+              </article>
+            </li>
+
+            <li class="tl-item" data-type="education" data-side="right">
+              <div class="tl-when">
+                <span class="tl-year">2017</span>
+                <span>Jul 2017 &ndash; Jun 2021</span>
+              </div>
+              <div class="tl-node"><svg><use href="#i-edu" /></svg></div>
+              <article class="tl-card">
+                <div class="tl-card-top">
+                  <span class="badge badge-edu">Education</span>
+                  <span class="tl-date-inline">Jul 2017 &ndash; Jun 2021</span>
+                </div>
+                <h3>B.Tech. Information Technology</h3>
+                <p class="tl-org">Symbiosis Institute of Technology <span>&middot; Pune, India</span></p>
+                <p class="tl-summary">
+                  Built foundations in data structures, algorithms, object-oriented design, and
+                  software engineering.
+                </p>
+                <div class="score"><strong>7.13</strong><span>/ 10 CGPA</span></div>
+                <ul class="tags">
+                  <li>Data structures</li><li>Algorithms</li><li>OOP</li><li>Databases</li>
+                </ul>
+              </article>
+            </li>
+          </ol>
         </div>
       </section>
 
-      <section class="system-map-section" aria-labelledby="map-title">
-        <div class="map-copy">
-          <p class="eyebrow">How I Think</p>
-          <h2 id="map-title">A platform is a living graph of services, signals, and tradeoffs.</h2>
-          <p>
-            My strongest work happens where backend design meets operational reality: queue pressure,
-            tenant boundaries, observability gaps, deployment risk, and the tiny performance details
-            that become expensive at scale.
-          </p>
-        </div>
-        <div class="map-frame" aria-hidden="true">
-          <canvas id="systemMap"></canvas>
-        </div>
-      </section>
-
-      <section class="developer-lab" id="lab" aria-labelledby="lab-title">
-        <div class="lab-copy">
-          <p class="eyebrow">Developer Lab</p>
-          <h2 id="lab-title">The fun part is turning messy systems into calm releases.</h2>
-          <p>
-            I like the loop: model the service, write the API, chase the bottleneck, watch the
-            tests pass, ship the release, then make the next deploy a little easier.
-          </p>
-        </div>
-        <div class="lab-stage" aria-hidden="true">
-          <div class="terminal-card">
-            <div class="terminal-bar">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <div class="terminal-lines">
-              <span style="--delay: 0ms">$ build tenant-metering-service</span>
-              <span style="--delay: 450ms">compiling Java modules...</span>
-              <span style="--delay: 900ms">profiling scheduler pipeline...</span>
-              <span style="--delay: 1350ms">tests green: 128 passed</span>
-              <span style="--delay: 1800ms">deploy preview ready</span>
-            </div>
+      <!-- ============ HIGHLIGHTS ============ -->
+      <section class="section" id="highlights">
+        <div class="wrap">
+          <div class="section-head">
+            <p class="kicker">03 &middot; Highlights</p>
+            <h2>Outcomes I'm proud of.</h2>
           </div>
-          <div class="build-loop">
-            <span>design</span>
-            <span>code</span>
-            <span>test</span>
-            <span>profile</span>
-            <span>deploy</span>
-          </div>
-          <div class="spark-grid">
-            <span></span><span></span><span></span><span></span><span></span><span></span>
-            <span></span><span></span><span></span><span></span><span></span><span></span>
-          </div>
-        </div>
-      </section>
-
-      <section class="section impact-section" id="impact" aria-labelledby="impact-title">
-        <div class="section-heading">
-          <p class="eyebrow">Selected Impact</p>
-          <h2 id="impact-title">Clear outcomes, not just responsibilities.</h2>
-        </div>
-        <div class="impact-grid">
-          <article class="impact-card">
-            <p class="impact-label">FinOps</p>
-            <h3>Usage-based metering</h3>
-            <p>
-              Built backend data pipelines to collect service usage metrics and publish billing
-              events to Stripe-backed payment services.
-            </p>
-          </article>
-          <article class="impact-card">
-            <p class="impact-label">Cloud</p>
-            <h3>Asynchronous workflows</h3>
-            <p>
-              Orchestrated service communication with AWS SNS and S3 event triggers for scalable,
-              message-based processing.
-            </p>
-          </article>
-          <article class="impact-card">
-            <p class="impact-label">Performance</p>
-            <h3>300% execution improvement</h3>
-            <p>
-              Used JProfiler to identify memory bottlenecks, inefficient processing stages, thread
-              contention, and pipeline overhead.
-            </p>
-          </article>
-          <article class="impact-card">
-            <p class="impact-label">Release</p>
-            <h3>Bi-weekly SaaS rollouts</h3>
-            <p>
-              Coordinated releases across engineering teams with task estimates, complexity analysis,
-              CI/CD workflows, and production stability checks.
-            </p>
-          </article>
-          <article class="impact-card">
-            <p class="impact-label">Architecture</p>
-            <h3>Reusable data architecture</h3>
-            <p>
-              Implemented schema-flexible dataset reuse architecture that reduced duplication and
-              improved developer productivity.
-            </p>
-          </article>
-          <article class="impact-card">
-            <p class="impact-label">Community</p>
-            <h3>NGO donor portal</h3>
-            <p>
-              Built an online organ donor registration portal for I Gift Life, turning engineering
-              skills into direct social impact.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section stack-section" id="stack" aria-labelledby="stack-title">
-        <div class="section-heading">
-          <p class="eyebrow">Technical Stack</p>
-          <h2 id="stack-title">Comfortable from API design to cloud release paths.</h2>
-        </div>
-        <div class="stack-layout">
-          <article class="stack-group">
-            <h3>Languages</h3>
-            <div class="pill-row">
-              <span>Java</span>
-              <span>Python</span>
-              <span>C++</span>
-              <span>SQL</span>
-              <span>Shell</span>
-              <span>JavaScript</span>
-            </div>
-          </article>
-          <article class="stack-group">
-            <h3>Backend</h3>
-            <div class="pill-row">
-              <span>Spring Boot</span>
-              <span>Django</span>
-              <span>REST APIs</span>
-              <span>Microservices</span>
-              <span>Maven</span>
-            </div>
-          </article>
-          <article class="stack-group">
-            <h3>Data</h3>
-            <div class="pill-row">
-              <span>PostgreSQL</span>
-              <span>MongoDB</span>
-              <span>Elasticsearch</span>
-              <span>Data Modeling</span>
-              <span>Usage Metering</span>
-            </div>
-          </article>
-          <article class="stack-group">
-            <h3>Cloud & DevOps</h3>
-            <div class="pill-row">
-              <span>AWS</span>
-              <span>GCP</span>
-              <span>Docker</span>
-              <span>Kubernetes</span>
-              <span>GitLab CI/CD</span>
-              <span>Jenkins</span>
-              <span>Terraform</span>
-              <span>Ansible</span>
-            </div>
-          </article>
-          <article class="stack-group">
-            <h3>Systems</h3>
-            <div class="pill-row">
-              <span>Distributed Systems</span>
-              <span>Concurrency</span>
-              <span>Event-Driven Architecture</span>
-              <span>Performance Profiling</span>
-              <span>Monitoring</span>
-              <span>System Design</span>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="section education-section" id="education" aria-labelledby="education-title">
-        <div class="section-heading">
-          <p class="eyebrow">Education</p>
-          <h2 id="education-title">A dedicated academic foundation in information systems and technology.</h2>
-        </div>
-        <div class="education-gallery">
-          <article class="education-card education-card-feature">
-            <div class="school-mark" aria-hidden="true">UCD</div>
-            <div>
-              <p class="education-label">Master's degree</p>
-              <h3>University College Dublin</h3>
-              <p>Master of Science in Information Systems</p>
-            </div>
-            <span>Sep 2024 - Aug 2025 &middot; Dublin, Ireland</span>
-          </article>
-          <article class="education-card">
-            <div class="school-mark" aria-hidden="true">SIT</div>
-            <div>
-              <p class="education-label">Bachelor's degree</p>
-              <h3>Symbiosis Institute of Technology</h3>
-              <p>Bachelor of Technology in Information Technology</p>
-            </div>
-            <span>Jul 2017 - Jun 2021 &middot; Pune, India</span>
-          </article>
-        </div>
-      </section>
-
-      <section class="section recognition-section" aria-labelledby="recognition-title">
-        <div class="section-heading">
-          <p class="eyebrow">Recognition</p>
-          <h2 id="recognition-title">Repeated recognition for release ownership and reliability work.</h2>
-        </div>
-        <div class="education-gallery recognition-gallery">
-          <article class="education-card education-card-award">
-            <div class="school-mark" aria-hidden="true">3x</div>
-            <div>
-              <p class="education-label">Recognition</p>
+          <div class="bento">
+            <article class="bento-card bento-hero">
+              <span class="bento-num" data-count="300" data-suffix="%">300%</span>
+              <h3>Faster distributed execution</h3>
+              <p>Profiled clustered, scheduled workloads with JProfiler and removed memory leaks, concurrency bugs, and thread contention.</p>
+            </article>
+            <article class="bento-card bento-dark">
+              <span class="bento-num">GCP</span>
+              <h3>UK bank data migration</h3>
+              <p>Architected a PySpark and Airflow pipeline replacing IBM DataStage.</p>
+            </article>
+            <article class="bento-card">
+              <span class="bento-num" data-count="3" data-suffix="&times;">3&times;</span>
               <h3>Star of the Quarter</h3>
-              <p>Recognised for end-to-end SaaS release management, platform stability, and performance ownership.</p>
-            </div>
-            <span>Q2 & Q3 2023, Q1 2024 &middot; ClearTrail Technologies</span>
-          </article>
-          <article class="education-card">
-            <div class="school-mark" aria-hidden="true">+</div>
-            <div>
-              <p class="education-label">Recognition</p>
-              <h3>Star of the Month</h3>
-              <p>Awarded multiple times across 2022-2024 for issue resolution, SaaS deployment planning, and service reliability under tight timelines.</p>
-            </div>
-            <span>ClearTrail Technologies</span>
-          </article>
+              <p>For SaaS release management, platform stability, and performance ownership.</p>
+            </article>
+            <article class="bento-card">
+              <span class="bento-num" data-count="3">3</span>
+              <h3>Engineers led</h3>
+              <p>Guided a team on GCP data-engineering practices at Wipro.</p>
+            </article>
+            <article class="bento-card bento-accent">
+              <span class="bento-num">Stripe</span>
+              <h3>Usage-based billing</h3>
+              <p>Metering pipelines that power automated invoicing and financial auditing.</p>
+            </article>
+            <article class="bento-card">
+              <span class="bento-num">2&times;/mo</span>
+              <h3>SaaS releases</h3>
+              <p>Coordinated bi-weekly releases across teams with estimates and stability checks.</p>
+            </article>
+          </div>
         </div>
       </section>
 
-      <section class="contact-section" id="contact" aria-labelledby="contact-title">
-        <div>
-          <p class="eyebrow">Contact</p>
-          <h2 id="contact-title">Let's build systems that are easier to operate and harder to break.</h2>
-          <p>
-            Based in Dublin, Ireland. Open to software engineering opportunities focused on backend,
-            platform, cloud infrastructure, and distributed systems.
-          </p>
+      <!-- ============ SKILLS ============ -->
+      <section class="section section-tint" id="skills">
+        <div class="wrap">
+          <div class="section-head">
+            <p class="kicker">04 &middot; Skills</p>
+            <h2>A toolkit that goes from API design to cloud release.</h2>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-group">
+              <h3><span>&lt;/&gt;</span> Languages</h3>
+              <ul class="tags tags-lg"><li>Java</li><li>Python</li><li>SQL</li><li>TypeScript</li><li>JavaScript</li><li>C++</li><li>Shell</li></ul>
+            </article>
+            <article class="skill-group">
+              <h3><span>&#9881;</span> Backend</h3>
+              <ul class="tags tags-lg"><li>Spring Boot</li><li>Microservices</li><li>REST APIs</li><li>Event-driven</li><li>Django</li><li>Stripe</li></ul>
+            </article>
+            <article class="skill-group">
+              <h3><span>&#9729;</span> Cloud &amp; DevOps</h3>
+              <ul class="tags tags-lg"><li>GCP</li><li>AWS</li><li>Docker</li><li>Kubernetes</li><li>Jenkins</li><li>GitLab CI</li><li>Maven</li></ul>
+            </article>
+            <article class="skill-group">
+              <h3><span>&#8646;</span> Data</h3>
+              <ul class="tags tags-lg"><li>PostgreSQL</li><li>PySpark</li><li>Airflow</li><li>Kafka</li><li>Databricks</li><li>MongoDB</li><li>Redis</li><li>Elasticsearch</li></ul>
+            </article>
+            <article class="skill-group">
+              <h3><span>&#9678;</span> Reliability</h3>
+              <ul class="tags tags-lg"><li>Grafana</li><li>Prometheus</li><li>New Relic</li><li>JProfiler</li><li>Incident response</li><li>Testing</li></ul>
+            </article>
+            <article class="skill-group">
+              <h3><span>&#10022;</span> AI &amp; tooling</h3>
+              <ul class="tags tags-lg"><li>Machine learning</li><li>NLP</li><li>LLM APIs</li><li>Pandas</li><li>Claude</li><li>Copilot</li><li>Cursor</li></ul>
+            </article>
+          </div>
         </div>
-        <div class="contact-actions">
-          <a class="button button-primary" href="mailto:vedantvermaimpmail@gmail.com">vedantvermaimpmail@gmail.com</a>
-          <a class="button button-secondary" href="tel:+353831721627">+353 831 721 627</a>
-          <a class="button button-secondary social-button" href="https://www.linkedin.com/in/vedant-verma-4b9367188/" target="_blank" rel="noreferrer">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M20.45 20.45h-3.56v-5.58c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.68H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.33 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12Zm1.78 13.02H3.55V9h3.56v11.45Z" />
-            </svg>
-            LinkedIn
-          </a>
-          <a class="button button-secondary social-button" href="https://github.com/vedantverma" target="_blank" rel="noreferrer">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.56.1.76-.24.76-.54v-2.07c-3.12.68-3.78-1.32-3.78-1.32-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.68.08-.68 1.13.08 1.73 1.16 1.73 1.16 1 .1.7 2.64 3.95 1.88.1-.73.39-1.23.71-1.52-2.49-.28-5.1-1.24-5.1-5.54 0-1.22.44-2.22 1.16-3-.12-.28-.5-1.42.11-2.96 0 0 .95-.3 3.1 1.15a10.7 10.7 0 0 1 5.65 0c2.16-1.46 3.1-1.15 3.1-1.15.62 1.54.24 2.68.12 2.96.72.78 1.15 1.78 1.15 3 0 4.31-2.62 5.25-5.12 5.53.4.35.76 1.03.76 2.08v3.13c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z" />
-            </svg>
-            GitHub
-          </a>
-          <a class="button button-ghost" href="assets/vedant-verma-platform-devops-resume.pdf" download>
-            Download DevOps Resume
-          </a>
+      </section>
+
+      <!-- ============ PROJECTS ============ -->
+      <section class="section" id="projects">
+        <div class="wrap">
+          <div class="section-head">
+            <p class="kicker">05 &middot; Projects</p>
+            <h2>Side projects &amp; activities.</h2>
+          </div>
+          <div class="projects">
+            <article class="project">
+              <span class="project-no">01</span>
+              <div>
+                <h3>I Gift Life organ-donor portal</h3>
+                <p>A full-stack registration portal for an NGO, turning engineering skills into direct social impact.</p>
+              </div>
+              <ul class="tags"><li>Full-stack</li><li>NGO</li></ul>
+            </article>
+            <article class="project">
+              <span class="project-no">02</span>
+              <div>
+                <h3>EMG hand-gesture interface</h3>
+                <p>A human-computer interface capturing EMG signals through a NodeMCU and translating them into in-game controls.</p>
+              </div>
+              <ul class="tags"><li>Hardware</li><li>Signals</li></ul>
+            </article>
+            <article class="project">
+              <span class="project-no">03</span>
+              <div>
+                <h3>Machine learning projects</h3>
+                <p>Model training and evaluation on real-world datasets in Python, alongside hands-on work with LLM APIs.</p>
+              </div>
+              <ul class="tags"><li>Python</li><li>ML</li></ul>
+            </article>
+            <article class="project">
+              <span class="project-no">04</span>
+              <div>
+                <h3>Uber HackTag, Round 2</h3>
+                <p>Reached the second round of Uber's hackathon. I also built a Django to-do application along the way.</p>
+              </div>
+              <ul class="tags"><li>Hackathon</li><li>Django</li></ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ FREELANCE BAND ============ -->
+      <section class="wrap">
+        <a class="freelance-band" href="freelance.html">
+          <div>
+            <p class="kicker kicker-light">Freelance</p>
+            <h2>Need a backend, pipeline, or performance fix? I take on freelance projects.</h2>
+          </div>
+          <span class="band-cta">View services &amp; enquire <svg><use href="#i-arrow" /></svg></span>
+        </a>
+      </section>
+
+      <!-- ============ CONTACT ============ -->
+      <section class="section" id="contact">
+        <div class="wrap contact">
+          <p class="kicker">06 &middot; Contact</p>
+          <h2 class="contact-title">Let's build something<br />that's hard to break.</h2>
+          <div class="contact-mail">
+            <a href="mailto:vedantvermaimpmail@gmail.com">vedantvermaimpmail@gmail.com</a>
+            <button class="icon-btn copy-btn" type="button" data-copy="vedantvermaimpmail@gmail.com" aria-label="Copy email address">
+              <svg><use href="#i-copy" /></svg>
+            </button>
+            <span class="copy-toast" role="status" aria-live="polite"></span>
+          </div>
+          <div class="contact-links">
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/vedant-verma-4b9367188/" target="_blank" rel="noreferrer"><svg><use href="#i-linkedin" /></svg> LinkedIn</a>
+            <a class="btn btn-ghost" href="https://github.com/vedantverma" target="_blank" rel="noreferrer"><svg><use href="#i-github" /></svg> GitHub</a>
+            <a class="btn btn-ghost" href="tel:+353831721627">+353 83 172 1627</a>
+            <a class="btn btn-ghost" href="assets/vedant-verma-resume.pdf" download="Vedant-Verma-Resume.pdf"><svg><use href="#i-download" /></svg> Resume</a>
+          </div>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <p>&copy; <span id="year"></span> Vedant Verma. Built for speed, clarity, and production polish.</p>
-      <a href="#top">Back to top</a>
+    <footer class="footer wrap">
+      <p>&copy; <span class="year"></span> Vedant Verma &middot; Dublin, Ireland</p>
+      <a href="#top">Back to top &uarr;</a>
     </footer>
 
     <script type="application/ld+json">
@@ -553,29 +560,12 @@
         "@type": "Person",
         "name": "Vedant Verma",
         "jobTitle": "Software Engineer",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Dublin",
-          "addressCountry": "Ireland"
-        },
+        "address": { "@type": "PostalAddress", "addressLocality": "Dublin", "addressCountry": "Ireland" },
         "email": "mailto:vedantvermaimpmail@gmail.com",
         "telephone": "+353831721627",
-        "sameAs": [
-          "https://www.linkedin.com/in/vedant-verma-4b9367188/",
-          "https://github.com/vedantverma"
-        ],
-        "knowsAbout": [
-          "Java",
-          "Spring Boot",
-          "Distributed Systems",
-          "Microservices",
-          "AWS",
-          "GCP",
-          "Docker",
-          "PostgreSQL",
-          "Performance Engineering",
-          "CI/CD"
-        ]
+        "alumniOf": ["University College Dublin", "Symbiosis Institute of Technology"],
+        "sameAs": ["https://www.linkedin.com/in/vedant-verma-4b9367188/", "https://github.com/vedantverma"],
+        "knowsAbout": ["Java", "Spring Boot", "Distributed Systems", "Microservices", "GCP", "AWS", "PySpark", "Apache Airflow", "PostgreSQL", "CI/CD"]
       }
     </script>
     <script src="script.js"></script>
